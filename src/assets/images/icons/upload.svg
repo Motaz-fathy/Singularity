@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="49px" viewBox="0 0 36 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_upload doc </title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Add-service-Provider-v3-Step3" transform="translate(-379.000000, -331.000000)" stroke="#8F9397" stroke-width="3.2">
+            <g id="Verification-Documents" transform="translate(327.000000, 261.000000)">
+                <g id="Group-5" transform="translate(1.000000, 46.000000)">
+                    <g id="ic_upload-doc-" transform="translate(53.000000, 26.000000)">
+                        <path d="M29.736,9.77946429 C30.6517411,10.6982704 30.9262663,12.0807114 30.4315561,13.2821115 C29.9368458,14.4835116 28.7703333,15.2672549 27.476,15.2678571 L20,15.2678571 C18.2326888,15.2678571 16.8,13.8287724 16.8,12.0535714 L16.8,7.23214286" id="Path"></path>
+                        <path d="M29.736,9.77946429 L19.256,0.646875 C18.7014996,0.227329628 18.0262102,0 17.332,0 L3.2,0 C1.4326888,0 0,1.43908473 0,3.21428571 L0,41.7857143 C0,43.5609153 1.4326888,45 3.2,45 L28.8,45 C30.5673112,45 32,43.5609153 32,41.7857143 L32,21.6964286" id="Path"></path>
+                        <polyline id="Path" points="16 35.3571429 16 24.1071429 10.4 29.7321429"></polyline>
+                        <line x1="16" y1="24.1071429" x2="21.6" y2="29.7321429" id="Path"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

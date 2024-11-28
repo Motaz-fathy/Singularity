@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_Archieve</title>
+    <defs>
+        <path d="M7.99998125,0 C3.5800097,0 0,3.5800097 0,7.99998125 C0,12.4199528 3.5800097,15.9999625 7.99998125,15.9999625 C12.4199528,15.9999625 16,12.4199903 16,7.99998125 C16,3.5799722 12.4199903,0 7.99998125,0 Z M1.60001125,7.99998125 C1.60001125,4.46399651 4.46399651,1.59997375 8.00001875,1.59997375 C9.48003009,1.59997375 10.836029,2.10798585 11.9200032,2.9479852 L2.9479852,11.9200032 C2.10798585,10.8359915 1.60001125,9.47999259 1.60001125,7.99998125 Z M7.99998125,14.3999888 C6.51996991,14.3999888 5.16397097,13.8919766 4.07999681,13.0519773 L13.0519773,4.07999681 C13.8919766,5.16400847 14.3999888,6.52000741 14.3999888,7.99998125 C14.3999888,11.5360035 11.5360035,14.3999888 7.99998125,14.3999888 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Service-Provider" transform="translate(-1360.000000, -424.000000)">
+            <g id="Table-Basic" transform="translate(287.000000, 370.000000)">
+                <g id="Table-Row" transform="translate(0.898601, 36.468333)">
+                    <g id="Group-2" transform="translate(1015.000000, 18.000000)">
+                        <g id="ic_Archieve" transform="translate(58.000000, 0.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            <g id="Icon-Color" mask="url(#mask-2)" fill="#5E5873">
+                                <rect id="🎨-Icon-Color" x="0" y="0" width="16" height="16"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

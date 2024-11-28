@@ -1,0 +1,43 @@
+@import "../../assets/scss/variables/variables";
+
+.sweet-alert {
+  padding: 0 !important;
+  span.btn {
+    top: -5px !important;
+  }
+  h2 {
+    padding: 0.8rem 1.4rem !important;
+    text-align: left !important;
+    font-size: 1.1rem !important;
+    margin-bottom: 0 !important;
+    background-color: $body-bg !important;
+  }
+  .modal_content {
+    text-align: left !important;
+    padding: 0.8rem 1.4rem !important;
+    margin-bottom: 0 !important;
+    font-size: 1rem !important;
+    border-bottom: 1px solid rgba(34, 41, 47, 0.05) !important;
+    color: $body-color !important;
+  }
+  & > p {
+    margin-top: 0 !important;
+    padding: 0.8rem 1.4rem !important;
+    justify-content: flex-end !important;
+  }
+}
+
+html[dir="rtl"] {
+  .sweet-alert {
+    span.btn {
+      right: unset !important;
+      left: 4px !important;
+    }
+    h2 {
+      text-align: right !important;
+    }
+    .modal_content {
+      text-align: right !important;
+    }
+  }
+}

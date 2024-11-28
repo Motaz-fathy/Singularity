@@ -1,0 +1,205 @@
+@import "../../assets/scss/variables/variables";
+
+.all_request_page {
+  .card-body {
+    padding: 0;
+  }
+
+  .rdt_Table {
+    .rdt_TableHeadRow {
+      .rdt_TableCol:first-of-type {
+        padding-left: 4rem;
+      }
+      .rdt_TableCol:nth-of-type(5),
+      .rdt_TableCol:nth-of-type(2) {
+        max-width: 100px !important;
+        min-width: 100px !important;
+        padding: 0.72rem 0 !important;
+      }
+    }
+    .rdt_TableRow {
+      .rdt_TableCell:first-of-type {
+        padding-left: 3rem;
+      }
+      .status_col {
+        max-width: 100px !important;
+        min-width: 100px !important;
+        padding: 0.72rem 0 !important;
+      }
+      .info_col {
+        max-width: 110px !important;
+        min-width: 265px !important;
+        padding: 0.72rem 0 !important;
+        text-align: center;
+        p {
+          margin: 0px;
+        }
+      }
+      .cat_col {
+        max-width: 100px !important;
+        min-width: 166px !important;
+      }
+      .name_col {
+        min-width: 240px !important;
+      }
+      .gp_name_col {
+        min-width: 275px !important;
+      }
+    }
+    .status_container {
+      margin-top: 8px;
+      .form-group,
+      label {
+        margin-bottom: 0 !important;
+      }
+      .slider {
+        .off {
+          left: unset;
+          right: -25%;
+        }
+        .on {
+          left: 40%;
+        }
+      }
+    }
+    .gp_name_container {
+      .gp_name {
+        margin-left: 10px;
+        .secondary_name {
+          color: $text-muted;
+          text-align: left;
+        }
+        .primary_name {
+          text-align: left;
+        }
+      }
+    }
+    .actions_container {
+      margin: 0 auto;
+    }
+    svg {
+      color: $body-color;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  .search_table {
+    input {
+      line-height: 20px;
+      &::placeholder {
+        font-size: 11px;
+        line-height: 20px;
+        vertical-align: middle;
+      }
+    }
+  }
+  .occasions_search_section {
+    padding: 1.5rem 3.4rem 1.5rem 4rem;
+    input {
+      line-height: 20px;
+      &::placeholder {
+        font-size: 11px;
+        line-height: 20px;
+        vertical-align: middle;
+      }
+    }
+  }
+  .header {
+    .bread_crumbs {
+      width: 80%;
+    }
+    .add_new_group_btn {
+      margin-right: 0rem;
+    }
+  }
+}
+html[dir="rtl"] {
+  .service_page {
+    .status_container {
+      .slider {
+        .off {
+          right: unset !important;
+          left: -5% !important;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 996px) {
+  .all_request_page {
+    .header {
+      .bread_crumbs {
+        width: 100% !important;
+      }
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  .all_request_page {
+    .occasions_search_section {
+      padding: 1.5rem !important;
+    }
+    .rdt_Table {
+      .rdt_TableHeadRow {
+        .rdt_TableCol:first-of-type {
+          padding-left: 1.5rem;
+        }
+      }
+      .rdt_TableRow {
+        .rdt_TableCell:first-of-type {
+          padding-left: 1.5rem;
+        }
+      }
+    }
+    .header {
+      margin-bottom: 1.5rem !important;
+      align-items: center !important;
+      .bread_crumbs {
+        width: 70%;
+      }
+    }
+  }
+  html[dir="rtl"] {
+    .all_request_page {
+      .header {
+        margin-bottom: 1rem;
+        .bread_crumbs {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1285px) {
+  .all_request_page {
+    .header {
+      .bread_crumbs {
+        width: 80%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .all_request_page {
+    .header {
+      margin-bottom: 1.5rem;
+      .bread_crumbs {
+        width: 100%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 320px) {
+  .all_request_page {
+    .header {
+      margin-bottom: 35px;
+      .bread_crumbs {
+        width: 100% !important;
+      }
+      .btn {
+        padding: 0.786rem 1rem !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="22px" viewBox="0 0 18 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_Location</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02.16.View-Pending-Order-_Details_Status_Canceled-by-Customer" transform="translate(-1071.000000, -610.000000)">
+            <g id="header-copy" transform="translate(1056.000000, 172.000000)">
+                <g id="Delivery-Address" transform="translate(16.000000, 395.000000)">
+                    <g id="Address" transform="translate(0.000000, 43.000000)">
+                        <g id="ic_Location" transform="translate(0.000000, 1.000000)">
+                            <path d="M8,-0.354461538 C10.3053667,-0.354461538 12.3919086,0.544691584 13.9024867,1.99662515 C15.4182455,3.45353829 16.3544615,5.46660978 16.3544615,7.68941954 C16.3544615,10.2299319 15.4788977,11.6232535 14.0267856,13.8862816 C12.9207661,15.6108936 8.84055222,20.3544615 8,20.3544615 C7.15893028,20.3544615 3.07098627,15.71177 1.99992624,14.0390399 C0.494344824,11.6876952 -0.354461538,10.3001389 -0.354461538,7.68941954 C-0.354461538,5.46660978 0.581754546,3.45353829 2.09751331,1.99662515 C3.60809138,0.544691584 5.69463327,-0.354461538 8,-0.354461538 Z" id="Oval" stroke="#FFFFFF" stroke-width="0.708923077" fill="#3077B3"></path>
+                            <ellipse id="Path" fill="#FFFFFF" cx="8" cy="7.68941954" rx="4" ry="3.84470977"></ellipse>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

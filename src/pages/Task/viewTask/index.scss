@@ -1,0 +1,175 @@
+/* Container styling */
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+  }
+  
+  /* Layout for the left and right sections */
+  .task-layout {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  /* Left section (Attachments) */
+  .left-section {
+    flex: 1;
+    max-width: 400px; /* Optional: Adjust for your design */
+  }
+  
+  /* Right section (Task Info and Timeline) */
+  .right-section {
+    flex: 2;
+    max-width: 800px; /* Optional: Adjust for your design */
+  }
+  
+  /* Common styles for task header */
+  .task-header {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Task info section */
+  .task-info {
+    margin-bottom: 15px;
+    p {
+      font-size: 1rem;
+      margin: 5px 0;
+    }
+    strong {
+      color: #555;
+    }
+  }
+  
+  /* Timeline styling */
+  .timeline-header {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .timeline-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .timeline-item {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for attachments */
+  .attachments {
+    margin-top: 20px;
+  }
+  
+  .attachment-item {
+    margin-bottom: 20px;
+  }
+  
+  .attachment-item img {
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .attachment-item video {
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .attachment-item a {
+    color: #0073e6;
+    text-decoration: none;
+  }
+  
+  .attachment-item a:hover {
+    text-decoration: underline;
+  }
+
+  /* Styling for form and inputs */
+.timeline-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  form input,
+  form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #005bb5;
+  }
+  
+  form textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  form input[type="file"] {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style for timeline list */
+  .timeline-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .timeline-item {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timeline-item img,
+  .timeline-item video {
+    margin-top: 10px;
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+  }
+  
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .task-layout {
+      flex-direction: column;
+    }
+  
+    .left-section, .right-section {
+      max-width: 100%;
+    }
+  }
+  

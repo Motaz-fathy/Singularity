@@ -1,0 +1,52 @@
+@import "../../../assets/scss/variables/variables";
+
+.edit_profile_info_tab {
+  .edit_profile_info_avatar {
+    border-radius: 5px !important;
+    background-color: $white !important;
+    border: 2px solid $primary;
+    span {
+      color: $primary;
+    }
+  }
+  .img_preview {
+    border-radius: 5px;
+  }
+  .edit_profile_pic_uploader_container {
+    .edit_profile_pic_uploader {
+      display: flex;
+      align-items: center;
+      .btn-msg-container {
+        margin: 0px 2rem;
+      }
+    }
+  }
+}
+@media screen and (max-width: 320px) {
+  .edit_profile_info_tab {
+    .edit_profile_pic_uploader {
+      flex-direction: column;
+      align-items: flex-start !important;
+      .btn-msg-container {
+        margin: 1rem 0 0 0 !important;
+      }
+    }
+    .actions_btns .btn {
+      padding: 0.786rem 1rem;
+    }
+  }
+  .change_email_info_tab {
+    .actions_btns {
+      .btn {
+        padding: 0.786rem 1rem;
+      }
+    }
+  }
+  .change_password_info_tab {
+    .actions_btns {
+      .btn {
+        padding: 0.786rem 1rem;
+      }
+    }
+  }
+}

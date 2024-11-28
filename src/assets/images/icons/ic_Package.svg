@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_Package</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="05.01.Packages_List" transform="translate(-32.000000, -451.000000)">
+            <g id="ic_Package" transform="translate(32.000000, 451.000000)">
+                <g transform="translate(0.000000, -0.000000)" id="box">
+                    <g id="Group-642" transform="translate(2.641602, 6.200358)" stroke="#FFFFFF" stroke-dasharray="0,0" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.25">
+                        <path d="M0,0 L7.35833327,4.25833344 L14.666667,0.0249997775" id="Vector" fill-rule="nonzero"></path>
+                        <line x1="7.35839844" y1="11.8080084" x2="7.35839844" y2="4.24967448" id="Vector"></line>
+                    </g>
+                    <path d="M3.82552087,4.53316053 C2.81718751,5.09149387 1.9921875,6.49149388 1.9921875,7.64149388 L1.9921875,12.3498265 C1.9921875,13.4998265 2.81718751,14.8998261 3.82552087,15.4581594 L8.2755208,17.9331605 C9.22552079,18.4581605 10.7838538,18.4581605 11.7338538,17.9331605 L16.1838547,15.4581594 C17.1921881,14.8998261 18.0171887,13.4998265 18.0171887,12.3498265 L18.0171887,7.64149388 C18.0171887,6.49149388 17.1921881,5.09149387 16.1838547,4.53316053 L11.7338538,2.05816045 C10.7755205,1.53316046 9.22552079,1.53316046 8.2755208,2.06649378 L3.82552087,4.53316053 Z" id="Vector" stroke="#FFFFFF" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="0,0" fill-rule="nonzero"></path>
+                    <path d="M20,0 L20,20 L0,20 L0,0 L20,0 Z" id="Vector" opacity="0" transform="translate(10.000000, 10.000000) rotate(-180.000000) translate(-10.000000, -10.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

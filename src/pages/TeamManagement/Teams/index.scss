@@ -1,0 +1,30 @@
+.add-new-group-btn {
+    // Apply some default styling
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .add-team-btn {
+    background-color: #007bff; // Blue color for "Add New Team" button
+    color: white;
+    &:hover {
+      background-color: #0056b3; // Darker blue on hover
+    }
+  }
+  
+  .add-member-btn {
+    background-color: #28a745; // Green color for "Add Member" button
+    color: white;
+    &:hover {
+      background-color: #218838; // Darker green on hover
+    }
+  }
+  
+  .create-member-btn {
+    background-color: #ffc107; // Yellow color for "Create Member" button
+    color: white;
+    &:hover {
+      background-color: #e0a800; // Darker yellow on hover
+    }
+  }
+  

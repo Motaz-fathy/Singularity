@@ -1,0 +1,124 @@
+// Custom style
+.nav.navbar-nav {
+  .dropdown-language {
+    .selected-language {
+      margin-left: 0.25rem;
+      color: $body-color;
+    }
+    .dropdown-menu.dropdown-menu-right {
+      right: -50px !important;
+    }
+  }
+}
+.dropdown-user {
+  .dropdown-menu {
+    button.dropdown-item {
+      width: 100%;
+      padding: 0 !important;
+      .logout_container,
+      .user_profile_container {
+        padding: 0.65rem 1.28rem;
+      }
+    }
+  }
+}
+.vertical-layout {
+  .main-menu {
+    .navbar-header {
+      margin-bottom: 1rem;
+      .brand-logo {
+        img {
+          max-width: 80px !important;
+        }
+      }
+    }
+    .occasions_balloons_icon {
+      margin-right: 1rem;
+    }
+  }
+}
+.blank-page {
+  .auth-wrapper {
+    .brand-logo {
+      top: 1.5rem !important;
+      left: 1.5rem !important;
+      img {
+        max-width: 100px !important;
+      }
+    }
+  }
+}
+.misc-wrapper {
+  .brand-logo {
+    top: 1.5rem !important;
+    left: 1.5rem !important;
+    img {
+      max-width: 100px !important;
+    }
+  }
+}
+html[dir="rtl"] {
+  // styles for pages with Vertical Layout
+  .vertical-layout {
+    .nav.navbar-nav {
+      .dropdown-menu.dropdown-menu-right {
+        right: 5px !important;
+      }
+    }
+  }
+  // styles for pages with Blank Layout
+  .blank-page {
+    .nav.navbar-nav {
+      .dropdown-menu.dropdown-menu-right {
+        left: 45% !important;
+        right: unset !important;
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .header-navbar {
+    .navbar-container {
+      align-items: baseline;
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  .blank-page {
+    .auth-wrapper {
+      .brand-logo {
+        top: 1.5rem !important;
+        left: 9.7rem !important;
+        img {
+          max-width: 90px !important;
+        }
+      }
+      .auth-bg {
+        padding-top: 3rem;
+      }
+      .nav.navbar-nav {
+        margin-bottom: 3rem !important;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .blank-page {
+    .auth-wrapper {
+      .brand-logo {
+        left: 7.8rem !important;
+      }
+    }
+  }
+}
+@media screen and (max-width: 425px) {
+  .blank-page {
+    .auth-wrapper {
+      .brand-logo {
+        left: 1.3rem !important;
+      }
+    }
+  }
+}

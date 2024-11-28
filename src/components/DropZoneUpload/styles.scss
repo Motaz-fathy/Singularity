@@ -1,0 +1,29 @@
+.sp_information {
+  .thump-contain {
+    background-color: black !important;
+
+    .img-contain {
+      position: relative;
+      width: 50%;
+      img {
+        display: block;
+        width: auto;
+        height: 100%;
+      }
+      span {
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: rgba(109, 74, 172, 1);
+        color: white;
+        font-size: 16px;
+        padding: 5px 12px;
+        border: none;
+        cursor: pointer;
+        border-radius: 2rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import "../../assets//scss/variables/variables";
+
+.breadcrumb_component {
+  .content-header {
+    width: 108% !important;
+  }
+  .body_text a {
+    color: $body-color;
+    font-size: 12px !important;
+  }
+  .primary_text a {
+    color: $primary;
+  }
+  .no_border {
+    border: none !important;
+  }
+}

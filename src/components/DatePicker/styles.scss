@@ -1,0 +1,12 @@
+.picker {
+  background-color: #fff !important;
+}
+.picker[readonly] {
+  opacity: 1 !important;
+}
+
+.picker[placeholder] {
+  height: 2.714rem !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+}

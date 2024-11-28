@@ -1,0 +1,71 @@
+@import "../../assets/scss/variables/variables";
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 75px;
+  height: 25px;
+  input {
+    display: none;
+    &:checked + .slider {
+      background-color:$primary;
+    }
+    &:focus + .slider {
+      box-shadow: 0 0 1px #2196f3;
+    }
+    &:checked + .slider:before {
+      -webkit-transform: translateX(53px);
+      -ms-transform: translateX(53px);
+      transform: translateX(53px);
+    }
+    &:checked + .slider .on {
+      display: block;
+    }
+    &:checked + .slider .off {
+      display: none;
+    }
+  }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $switch-off-bg-color;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    &:before {
+      position: absolute;
+      content: "";
+      height: 14px;
+      width: 14px;
+      left: 4px;
+      bottom: 6px;
+      background-color: white;
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
+    }
+    &.round {
+      border-radius: 34px;
+      &:before {
+        border-radius: 50%;
+      }
+    }
+  }
+  .on {
+    display: none;
+    color: $white;
+    left: 50%;
+  }
+  .off {
+    color: $body-color;
+    left: 60%;
+  }
+  .on,
+  .off {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 45%;
+  }
+}

@@ -1,0 +1,19 @@
+@import "../../../assets/scss/variables/variables";
+
+.view_profile_info_tab {
+  .view_profile_info_avatar {
+    border-radius: 5px !important;
+    &.initials_avatar {
+      background-color: $white !important;
+      border: 2px solid $primary;
+      span {
+        color: $primary;
+      }
+    }
+    &.img_avatar {
+      img {
+        border-radius: 5px;
+      }
+    }
+  }
+}

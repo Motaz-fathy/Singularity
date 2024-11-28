@@ -1,0 +1,131 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+@import "./variables/variables";
+@import "./vuexyStyle.scss";
+
+.ltr {
+  direction: ltr !important;
+}
+.rtl {
+  direction: rtl !important;
+}
+.w_20 {
+  width: 20%;
+}
+.w_50 {
+  width: 50%;
+}
+.w_75 {
+  width: 75%;
+}
+.w_65 {
+  width: 65%;
+}
+.w_90 {
+  width: 90%;
+}
+.w_100 {
+  width: 100%;
+}
+.h_100 {
+  height: 100%;
+}
+.pointer {
+  cursor: pointer;
+}
+.text_right {
+  text-align: right;
+}
+.text_left {
+  text-align: left;
+}
+.text_end {
+  text-align: end;
+}
+.word_break {
+  word-break: break-all !important;
+}
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.err_border {
+  border-color: $error;
+}
+
+// Text
+// Text colors
+.primary_text {
+  color: $primary !important;
+}
+.white_text {
+  color: $white !important;
+}
+.error_text {
+  color: $error !important;
+}
+.body_text {
+  color: $body-color !important;
+}
+.muted_text {
+  color: $text-muted !important;
+}
+// Text fonts
+.f_size_10 {
+  font-size: 0.75rem !important;
+}
+.f_size_12 {
+  font-size: 0.85rem !important;
+}
+.f_size_14 {
+  font-size: 1rem !important;
+}
+.f_size_16 {
+  font-size: 1.14rem;
+}
+.f_size_18 {
+  font-size: 1.28rem !important;
+}
+.f_size_20 {
+  font-size: 1.42rem !important;
+}
+.f_size_24 {
+  font-size: 1.7rem !important;
+}
+.large_bold {
+  font-size: 28px !important;
+}
+.bold {
+  font-weight: bold !important;
+}
+
+.viewCustomer-avatar {
+  border-radius: 0 !important;
+  margin-inline-end: 20px;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+.gap-20 {
+  gap: 20px;
+}
+.pages-contaioner {
+  .header {
+    .bread_crumbs {
+      width: 80%;
+    }
+  }
+}

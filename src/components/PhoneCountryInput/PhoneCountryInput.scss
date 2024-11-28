@@ -1,0 +1,43 @@
+@import "../../assets/scss/variables/variables";
+
+.phone_input_wrapepr {
+  .phone_input_container {
+    .phone_input {
+      width: 100%;
+      height: 2.714rem;
+    }
+    .phone_btn {
+    }
+    .phone_dropdown {
+    }
+    &.err_input {
+      .phone_input,
+      .phone_btn {
+        border-color: $error;
+      }
+    }
+  }
+}
+
+html[dir="rtl"] {
+  .phone_input_wrapepr {
+    .phone_input_container {
+      .phone_input {
+        padding-left: 48px;
+        padding-right: 14px;
+        text-align: left;
+        direction: ltr;
+      }
+      .phone_btn {
+        border-radius: 3px 0 0 3px;
+        left: 0;
+        .selected-flag {
+          padding: 0 13px 0 0;
+        }
+        .arrow {
+          right: -10px;
+        }
+      }
+    }
+  }
+}

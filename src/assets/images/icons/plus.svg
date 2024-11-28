@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_Plus</title>
+    <defs>
+        <path d="M13.3333333,8 C13.3333333,8.4 13.0666667,8.66666667 12.6666667,8.66666667 L8.66666667,8.66666667 L8.66666667,12.6666667 C8.66666667,13.0666667 8.4,13.3333333 8,13.3333333 C7.6,13.3333333 7.33333333,13.0666667 7.33333333,12.6666667 L7.33333333,8.66666667 L3.33333333,8.66666667 C2.93333333,8.66666667 2.66666667,8.4 2.66666667,8 C2.66666667,7.6 2.93333333,7.33333333 3.33333333,7.33333333 L7.33333333,7.33333333 L7.33333333,3.33333333 C7.33333333,2.93333333 7.6,2.66666667 8,2.66666667 C8.4,2.66666667 8.66666667,2.93333333 8.66666667,3.33333333 L8.66666667,7.33333333 L12.6666667,7.33333333 C13.0666667,7.33333333 13.3333333,7.6 13.3333333,8 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Add-service-Provider-v3-Step2" transform="translate(-338.000000, -746.000000)">
+            <g id="Contact-info-" transform="translate(287.000000, 167.000000)">
+                <g id="Store-info-" transform="translate(38.000000, 96.000000)">
+                    <g id="Content-Copy" transform="translate(0.000000, 265.000000)">
+                        <g id="Username" transform="translate(1.000000, 164.000000)">
+                            <g id="⏹-Default" transform="translate(0.000000, 23.000000)">
+                                <g id="ic_Plus" transform="translate(12.000000, 31.000000)">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                                    <g id="Icon-Color" mask="url(#mask-2)" fill="#5E5873">
+                                        <rect id="🎨-Icon-Color" x="0" y="0" width="16" height="16"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
